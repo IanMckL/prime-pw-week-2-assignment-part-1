@@ -9,7 +9,7 @@ fullName = (firstName + ' ' + lastName);
 // 4 - Console log the value of `fullName`
 console.log(fullName);
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
-let luckyNumber = 1;
+let luckyNumber = 1336;
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
@@ -35,7 +35,6 @@ else{
     console.log('How about we stay home?')
 }
 
-
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 
 if (luckyNumber == 2 && adventurous == true) {
@@ -43,20 +42,20 @@ if (luckyNumber == 2 && adventurous == true) {
 }
 else {
  console.log("I'm one of these things, but not the other.")
-};
+}
 
 // console log "Roll the dice!"
 console.log('Role the dice!');
 // 15 - Write a conditional that console logs "I can have more pets!" 
 if (pets < allowedPets){
- console.log('I can have more pets!')
+ console.log('I can have more pets!');
     }
     else if(pets = allowedPets){
-    console.log('I have enough pets')
+    console.log('I have enough pets');
     }
 else
 {
-console.log('I have too many pets!')   
+console.log('I have too many pets!');
 }
 
 //if the value of `pets` is less than the value of `allowedPets`
@@ -82,9 +81,9 @@ console.log('I have too many pets!')
 if (luckyNumber == 1){
    var numberGen = 1;
 }
-else if (luckyNumber == 2){
-   var numberGen = 2;
-}
+    else if (luckyNumber == 2){
+    var numberGen = 2;
+    }
 else{    
 }
 
