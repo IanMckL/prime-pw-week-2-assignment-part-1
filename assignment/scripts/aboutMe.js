@@ -78,16 +78,25 @@ console.log('I have too many pets!')
 //      "Third is the one with the polka dot dress" if your lucky number is 3
 //      Otherwise, log "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
-var isbad = 0
 
-switch(luckyNumber == ( 1 || 2 )){
-    case (luckyNumber = 1):
-     isbad = "first is the worst"
+if (luckyNumber == 1){
+   var numberGen = 1;
+}
+else if (luckyNumber == 2){
+   var numberGen = 2;
+}
+else{    
+}
+
+switch(numberGen){
+    case (numberGen = 1):
+     var isbad = "first is the worst";
      break;
-    case (luckyNumber = 2):
-     isbad = "second is the best"
+    case (numberGen = 2):
+     var isbad = "second is the best";
      break;
 }
+
 console.log(isbad)
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
