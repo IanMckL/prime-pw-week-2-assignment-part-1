@@ -26,9 +26,9 @@ let friendsPets = 2;
 pets += 2 ;
 console.log(pets);
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-allowedPets = (9999999999999)
+const allowedPets = 9999999999999;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
-if (adventurous = 1){
+if (adventurous === true){
   console.log('Adventure time!')
 }
 else{
@@ -37,7 +37,7 @@ else{
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 
-if (luckyNumber == 2 && adventurous == true) {
+if (luckyNumber === 2 && adventurous === true) {
  console.log('This should not appear');
 }
 else {
@@ -50,13 +50,16 @@ console.log('Role the dice!');
 if (pets < allowedPets){
  console.log('I can have more pets!');
     }
-    else if(pets = allowedPets){
-    console.log('I have enough pets');
+else if(pets === allowedPets){
+     console.log('I have enough pets');
     }
-else
-{
-console.log('I have too many pets!');
-}
+else if(pets > allowedPets){
+     console.log('I have way too many pets.');
+    }
+else{
+
+    }
+
 
 //if the value of `pets` is less than the value of `allowedPets`
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
@@ -77,22 +80,33 @@ console.log('I have too many pets!');
 //      "Third is the one with the polka dot dress" if your lucky number is 3
 //      Otherwise, log "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
-
-if (luckyNumber == 1){
-   var numberGen = 1;
-}
-    else if (luckyNumber == 2){
-    var numberGen = 2;
+let numberGen;
+if (luckyNumber === 1){
+     numberGen = 1;
+    }
+    else if (luckyNumber === 2){
+    numberGen = 2;
+    }
+    else if (luckyNumber === 3){
+    numberGen = 3;
     }
 else{    
 }
 
+
+let isbad;
 switch(numberGen){
-    case (numberGen = 1):
-     var isbad = "first is the worst";
+    case (1):
+     isbad ='First is the worst';
      break;
-    case (numberGen = 2):
-     var isbad = "second is the best";
+    case (2):
+     isbad ='second is the best';
+     break;
+    case (3):
+     isbad ='third wears a dress or something';
+     break;
+    case (undefined):
+     isbad ='Luck or whatever';
      break;
 }
 
